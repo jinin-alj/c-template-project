@@ -1,0 +1,5 @@
+# I dont know how to use gitignore
+*~
+build/
+.cache/
+.vscode/

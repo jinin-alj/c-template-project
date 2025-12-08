@@ -1,0 +1,9 @@
+name: homework10
+channels:
+  - conda-forge
+dependencies:
+  - cmake
+  - make
+  - c-compiler
+  - doxygen
+  - utest
