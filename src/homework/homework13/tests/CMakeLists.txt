@@ -1,0 +1,3 @@
+add_executable(test_linkedlist test_linkedlist.c)
+target_link_libraries(test_linkedlist homework13)
+add_test(NAME test_linkedlist COMMAND test_linkedlist)

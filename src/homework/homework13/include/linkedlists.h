@@ -93,3 +93,4 @@
         }
         printf("%d -> ", data->value);
     }
+    void linked_list_traverse(LinkedList* list, LinkedListOp op);
