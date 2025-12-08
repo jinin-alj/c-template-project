@@ -18,6 +18,8 @@
 
     } LinkedList;
 
+    typedef void (*LinkedListOp)(Data*);
+
     LinkedList* linked_list_create() {
         LinkedList* list = (LinkedList*)malloc(sizeof(LinkedList));
         list->head = NULL;

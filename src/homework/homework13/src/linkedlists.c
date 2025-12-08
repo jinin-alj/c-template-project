@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "linkedlists.h"
 
-void linked_list_traverse(LinkedList* list, void (*op)(Data*)) {
+void linked_list_traverse(LinkedList* list, LinkedListOp op) {
     if (!list || !op) {
         return;
     }
